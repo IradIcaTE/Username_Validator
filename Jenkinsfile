@@ -2,7 +2,7 @@ pipeline {
     agent { label "First" }
 
     parameters {
-        string( name: "USERNAME", defaultValue: '', description: "Enter your username" )
+        string( name: "USERNAME", defaultValue: 'Parth', description: "Enter your username" )
     }
 
     stages {
